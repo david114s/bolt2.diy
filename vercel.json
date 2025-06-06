@@ -1,11 +1,6 @@
 {
-  "buildCommand": "pnpm run build:vercel",
+  "buildCommand": "remix build",
   "outputDirectory": "build/client",
   "installCommand": "pnpm install",
-  "framework": null,
-  "functions": {
-    "app/entry.server.tsx": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "framework": null
 }
